@@ -7,14 +7,14 @@ function hideViews() {
     }
 
     // For single tweet pages (e.g. https://twitter.com/username/status/1234567890)
-    if (window.location.href.indexOf("status") > -1) {
-        var article = document.querySelector('article[tabindex="-1"][data-testid="tweet"]');
-        var aTags = article.querySelectorAll('a[href*="analytics"]');
-        // var aTags = document.querySelectorAll('a[href*="analytics"]');
-        for (var i = 0; i < aTags.length; i++) {
-            aTags[i].parentNode.parentNode.style.display = 'none';
-        }
-    }
+    // if (window.location.href.indexOf("status") > -1) {
+    //     var article = document.querySelector('article[tabindex="-1"][data-testid="tweet"]');
+    //     var aTags = article.querySelectorAll('a[href*="analytics"]');
+    //     // var aTags = document.querySelectorAll('a[href*="analytics"]');
+    //     for (var i = 0; i < aTags.length; i++) {
+    //         aTags[i].parentNode.parentNode.style.display = 'none';
+    //     }
+    // }
 
 }
 
