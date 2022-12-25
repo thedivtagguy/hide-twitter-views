@@ -6,7 +6,7 @@ This Chrome extension allows you to hide the tweet view count on Twitter.
 
 To install the extension, follow these steps:
 
-1. Download the extension by clicking on the "Clone or download" button and then "Download ZIP".
+1. Download the extension by clicking on the green "Code" button and then "Download ZIP".
 2. Unzip the downloaded file.
 3. In Chrome, go to the extensions page (chrome://extensions).
 4. Enable "Developer mode" by clicking the toggle switch in the top right corner.
