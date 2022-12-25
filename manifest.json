@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Hide Twitter Views",
+  "description": "This extension hides the view count on Twitter.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "assets/hide.png",
+    "default_popup": "popup.html",
+    "default_title": "Hiding annoying Twitter views"
+  },
+  "permissions": ["*://*.twitter.com/*", "*://twitter.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitter.com/*", "*://twitter.com/*"],
+      "js": ["hide-views.js"]
+    }
+  ]
+  
+}
